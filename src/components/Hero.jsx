@@ -1,10 +1,12 @@
+import Brosur from "/images/brosur.png";
+
 const Hero = () => {
   return (
     <div id="hero" className="hero bg-base mt-10">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           alt="Content Image"
-          src="/images/brosur.png"
+          src={Brosur}
           className="rounded-2xl shadow-2xl w-auto h-125 max-w-sm lg:max-w-lg"
         />
         <div className="pr-25">

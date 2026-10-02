@@ -7,27 +7,25 @@ const Footer = () => {
         <a href="#">
           <img src={Logo} alt="Logo" className="h-auto w-45" />
         </a>
-        <p>Est. 2023</p>
+        <p className="font-[montserrat] text-lg">Est. 2023</p>
       </aside>
       <nav>
-        <h6 className="footer-title">Services</h6>
-        <a className="link link-hover">Branding</a>
-        <a className="link link-hover">Design</a>
-        <a className="link link-hover">Marketing</a>
-        <a className="link link-hover">Advertisement</a>
+        <h6 className="footer-title">Tentang Kami</h6>
       </nav>
       <nav>
-        <h6 className="footer-title">Company</h6>
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
+        <h6 className="footer-title">Katalog</h6>
+        <a className="link link-hover">Skripsi Series</a>
+        <a className="link link-hover">Sempro, etc Series</a>
+        <a className="link link-hover">Tugas Series</a>
       </nav>
       <nav>
-        <h6 className="footer-title">Legal</h6>
-        <a className="link link-hover">Terms of use</a>
-        <a className="link link-hover">Privacy policy</a>
-        <a className="link link-hover">Cookie policy</a>
+        <h6 className="footer-title">Layanan Kami</h6>
+        <a className="link link-hover">Printing</a>
+        <a className="link link-hover">Photo Card</a>
+        <a className="link link-hover">Jasa Lainnya</a>
+      </nav>
+      <nav>
+        <h6 className="footer-title">Kontak Kami</h6>
       </nav>
     </footer>
   );

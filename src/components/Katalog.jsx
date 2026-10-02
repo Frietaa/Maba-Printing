@@ -1,3 +1,7 @@
+import Katalog1 from "/images/skripsi.png";
+import Katalog2 from "/images/skripsi1.png";
+import Katalog3 from "/images/skripsi2.png";
+
 const Katalog = () => {
   return (
     <div
@@ -17,7 +21,7 @@ const Katalog = () => {
             <div className="card bg-base-100 w-auto shadow-sm">
               <figure className="px-4 pt-4">
                 <img
-                  src="/images/skripsi.png"
+                  src={Katalog1}
                   alt="skripsi"
                   className="rounded-xl w-sm h-auto"
                 />
@@ -33,7 +37,7 @@ const Katalog = () => {
             <div className="card bg-base-100 w-auto shadow-sm">
               <figure className="px-4 pt-4">
                 <img
-                  src="/images/skripsi1.png"
+                  src={Katalog2}
                   alt="skripsi 1"
                   className="rounded-xl w-sm h-auto"
                 />
@@ -49,7 +53,7 @@ const Katalog = () => {
             <div className="card bg-base-100 w-auto shadow-sm">
               <figure className="px-4 pt-4">
                 <img
-                  src="/images/skripsi2.png"
+                  src={Katalog3}
                   alt="skripsi 2"
                   className="rounded-xl w-sm h-auto"
                 />
