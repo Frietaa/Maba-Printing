@@ -2,7 +2,7 @@ import Brosur from "/images/brosur.png";
 
 const Hero = () => {
   return (
-    <div id="hero" className="hero bg-base mt-10">
+    <div id="hero" className="hero bg-base mt-20">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           alt="Content Image"

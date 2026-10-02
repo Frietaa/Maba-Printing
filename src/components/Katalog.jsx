@@ -6,11 +6,11 @@ const Katalog = () => {
   return (
     <div
       id="katalog"
-      className="hero bg-base-300 rounded-4xl min-h-screen mt-10 px-10 py-4"
+      className="hero bg-base-300/90 backdrop-blur-md shadow-md rounded-4xl min-h-screen mt-10 px-10 py-4"
     >
       <div className="hero-content text-center">
         <div>
-          <h1 className="text-5xl font-bold font-[poppins]">Hello there</h1>
+          <h1 className="text-5xl font-bold font-[poppins]">Katalog</h1>
           <p className="py-6 px-25 font-[montserrat]">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
