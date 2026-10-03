@@ -1,108 +1,62 @@
-import Icon1 from "/icons/headLogo.png";
+import Location from "/icons/map-pin.svg";
+import Mail from "/icons/mail.svg";
+import Phone from "/icons/phone-call.svg";
+import Youtube from "/icons/youtube.png";
+import Instagram from "/icons/instagram.png";
+import Tiktok from "/icons/tiktok.png";
 
 const Contact = () => {
   return (
-    <div className="hero hero-content bg-base min-h-screen text-center font-[poppins]">
-      <div className="card w-96 bg-base-100 card-lg shadow-sm flex w-full flex-col lg:flex-row">
-        {/* left side */}
-        <div className="card-body bg-base-200 -mr-4">
-          <h2 className="card-title text-2xl">Kenali Kami</h2>
-          <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
-          </p>
-          {/* section location, email, and phone */}
-          <div className="flex items-center space-x-4">
-            <img src={Icon1} alt="Logo" className="h-auto w-10" />
-            <div>
-              <h2 className="card-title text-sm">Location</h2>
-              <p className="text-sm font-[montserrat]">
-                A card component has a figure, a body part, and inside body
-                there are title and actions parts
-              </p>
-            </div>
-          </div>
-          <div className="flex items-center space-x-4">
-            <img src={Icon1} alt="Logo" className="h-auto w-10" />
-            <div>
-              <h2 className="card-title text-sm">Location</h2>
-              <p className="text-sm font-[montserrat]">
-                A card component has a figure, a body part, and inside body
-                there are title and actions parts
-              </p>
-            </div>
-          </div>
-          <div className="flex items-center space-x-4">
-            <img src={Icon1} alt="Logo" className="h-auto w-10" />
-            <div>
-              <h2 className="card-title text-sm">Location</h2>
-              <p className="text-sm font-[montserrat]">
-                A card component has a figure, a body part, and inside body
-                there are title and actions parts
-              </p>
-            </div>
-          </div>
+    <div
+      id="contact"
+      className="hero hero-content bg-base-200 min-h-screen text-start font-[poppins] rounded-4xl mt-10 px-10 py-4"
+    >
+      <ul className="list bg-base-100 rounded-box shadow-md">
+        <li className="p-4 pb-2 text-4xl font-bold opacity-60 tracking-wide text-center">
+          Kenali Kami
+        </li>
 
-          {/* icon section */}
-          <h2 className="card-title">Follow Us</h2>
-          <div className="flex items-center space-x-4">
-            <a>
-              <img src={Icon1} alt="Logo" className="h-auto w-10" />
-            </a>
-            <a>
-              <img src={Icon1} alt="Logo" className="h-auto w-10" />
-            </a>
-            <a>
-              <img src={Icon1} alt="Logo" className="h-auto w-10" />
-            </a>
-          </div>
-        </div>
-        <div className="divider lg:divider-horizontal"></div>
-        {/* right side */}
-        <div className="card-body bg-base-200 -ml-4">
-          <h2 className="card-title">Kirim Pesan</h2>
-          {/* input fields */}
-          <div className="flex gap-2">
-            <input
-              tpe="text"
-              placeholder="Nama"
-              className="input input-bordered w-full max-w-xs mb-4"
-            />
-            <input
-              tpe="text"
-              placeholder="Nama"
-              className="input input-bordered w-full max-w-xs mb-4"
+        <li className="list-row">
+          <div>
+            <img
+              className="size-10 rounded-box"
+              alt="Location Icon"
+              src={Location}
             />
           </div>
-          <div className="flex gap-2">
-            <input
-              tpe="text"
-              placeholder="Nama"
-              className="input input-bordered w-full max-w-xs mb-4"
-            />
-            <input
-              tpe="text"
-              placeholder="Nama"
-              className="input input-bordered w-full max-w-xs mb-4"
-            />
+          <div className="list-col-grow">
+            <div>Outlet Kami</div>
+            <div className="text-xs text-warp uppercase font-semibold opacity-60">
+              Kampus Terpadu Universitas, Balun Ijuk, Kec. Merawang, Kabupaten
+              Bangka, Kepulauan Bangka Belitung 33172, Indonesia
+            </div>
           </div>
-          <div className="flex flex-col">
-            <input
-              tpe="text"
-              placeholder="Nama"
-              className="input input-bordered w-full max-w-xs mb-4"
-            />
-            <input
-              tpe="text"
-              placeholder="Nama"
-              className="input input-bordered w-full max-w-xs mb-4"
-            />
+        </li>
+
+        <li className="list-row">
+          <div>
+            <img className="size-10 rounded-box" alt="Mail Icon" src={Mail} />
           </div>
-          <div className="justify-end card-actions">
-            <button className="btn btn-primary">Kirim</button>
+          <div className="list-col-grow">
+            <div>Email</div>
+            <div className="text-xs uppercase font-semibold opacity-60">
+              mabaprinting@gmaii.com
+            </div>
           </div>
-        </div>
-      </div>
+        </li>
+
+        <li className="list-row">
+          <div>
+            <img className="size-10 rounded-box" alt="Phone Icon" src={Phone} />
+          </div>
+          <div className="list-col-grow">
+            <div>Kontak Kami</div>
+            <div className="text-xs uppercase font-semibold opacity-60">
+              +62 821 7860 3321
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   );
 };
